@@ -1,0 +1,121 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    border: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+}
+li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 0px;
+    color: gray;
+  }
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size:12px ;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+header{
+    background-image: url(https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header button:hover{
+    /* color: black;
+    background-color: whitesmoke; */
+}
+#small{
+    background-image: url(https://colorlibhub.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 438px;
+}
+#project{
+    background-color: #0e1015;
+}
+#customer{
+    background-image: url(https://colorlibhub.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 467px;
+}
+#main img{
+  opacity: .4;
+  transition: all .3s ease-in-out;
+}
+#main img:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+    header h1{
+      font-size: 26px;
+    }
+    header p{
+      font-size: 14px;
+    }
+    #small h2{
+      font-size: 22px;
+    }
+    #small p{
+      font-size: 14px;
+    }
+    #friendly h2{
+      font-size: 22px;
+    }
+    #friendly p{
+      font-size: 14px;
+    }
+    #project h4{
+      font-size: 18px;
+    }
+    #project p{
+      font-size: 12px;
+    }
+    #customer h4{
+      font-size: 20px;
+    }
+    #custommer p{
+      font-size: 6px;
+    }
+    #awesome h3{
+      font-size: 18px;
+    }
+    footer p{
+      font-size: 12px;
+    }
+ }
